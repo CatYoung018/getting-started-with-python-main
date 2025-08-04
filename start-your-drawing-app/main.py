@@ -14,4 +14,4 @@ turtle.right(60)
 turtle.forward(100)
 turtle.right(60)
 
-
+input("Press enter to exit...");
