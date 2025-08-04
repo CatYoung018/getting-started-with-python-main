@@ -1,14 +1,12 @@
 import datetime
 
-current_datetime = datetime.now()
+current_time = datetime.datetime.now()
 
-formatted_time = current_datetime.strftime("%m%d%y")
-#08/04/2025
+print(current_time.strftime("%m%d%y"))
 
-print(00/00/00)
+print(current_time("%B %d, %Y"))
 
-formatted_time = current_datetime.strftime("%B %d, %Y")
-#August 4, 2025
+print(current_time.strftime("%B %d, %Y %I:%M %p"))
 
-print(formatted_time)
+
 
