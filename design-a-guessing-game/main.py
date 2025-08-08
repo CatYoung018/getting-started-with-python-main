@@ -12,7 +12,7 @@ while not correct_guess:
         if number == random_number:
             correct_guess = True
         elif number > random_number:
-            print ("You guessed too high!")
+            print("You guessed too high!")
         elif number < random_number:
                 print("You guessed to low!")
     except:
