@@ -7,7 +7,6 @@ friends_list[10:14]
 print(friends_list[10:14]) # Output: ['Arnold', 'Adam', 'Cody', 'Mason']
 friends_list[7]
 print(friends_list[7]) # Output: 'Cathy'
-friends_list(len(friends_list))
 print(len(friends_list)) # Output: 15
 
                 
