@@ -9,5 +9,12 @@ while not done:
         done = True
     else:
         todo_list.append(new_item)
-        
-print("Your todo list:")      
+
+
+for item in todo_list:
+    print("Your todo list:" + " " + item)
+
+
+
+
+
